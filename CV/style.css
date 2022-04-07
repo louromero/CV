@@ -1,0 +1,142 @@
+body{
+    background-color: #657B8B;
+    height: 1728px;
+    font-family: "Microsoft YaHei";
+    font-size: 18px;
+}
+
+/*Rectangulo que adorna la parte superior de la hoja*/
+.linea_superior{
+    background-color:#FFEEDD;
+    height:40px;
+    margin: 20px 20px 0px 20px;
+}
+
+.tabla{
+    width: 90%;
+}
+
+tbody{
+    margin: 20px 20px 0px 20px;
+}
+
+/*Foto de perfil redonda*/
+#foto{
+    border-radius: 50%;
+    float:left;
+    margin-top:10px;
+    margin-left:30%;
+    box-shadow: 15px 10px 50px #657B8B;
+}
+
+/* Columna 1 */
+.columna1 {
+    padding: 30px 30px 0px 30px;
+    position:absolute;
+    top:40px;
+    left:28px;
+    width:40%;
+    background-color: #FFEEDD;
+    /*box-shadow: 5px 15px 20px #000000;*/
+}
+
+.nombre{
+    margin-top:285px; /*Hace que el nombre se situe en la parte inferior de la foto*/
+    letter-spacing: 5px;
+    color:#657B8B;
+    font-size: 20px;
+    /*font-family: "Microsoft YaHei";*/
+    font-weight: bold;
+    text-align: center;
+}
+
+/*Margin para que todos comiencen en el mismo nivel*/
+#alineacion{
+    margin: 50px;
+}
+
+.texto{
+    color:#657B8B;
+    font-size: 18px;
+    letter-spacing: 2px;
+    /*font-family: "Microsoft YaHei";*/
+}
+
+/*Titulos de la columna 1*/
+.titulos1{
+    font-weight: bold;
+}
+
+/*Alineación de los items de la columna 1*/
+.items{
+    margin-left: 15px;
+}
+
+.adorno{
+    height: 10px;
+    width: 200px;
+    background-color: #657B8B;
+}
+.codigo{
+    margin-right: 8px;
+}
+/*Columna 2 */
+.columna2{
+    position:absolute;
+    margin-left: 48%;
+    top:22px;
+    width:45%;
+}
+
+.experiencia {
+    color: #FEFEFE;
+    /*font-family: "Microsoft YaHei";*/
+}
+
+#titulos2{
+    font-weight: bold;
+    background-color: #FFEEDD;
+    padding: 5px 5px 5px 30px;
+}
+
+.subtitulo{
+    font-size: 18px;
+    letter-spacing: 2px;
+}
+
+/*Estilos de los elementos de la tabla*/
+.tablita{
+    font-family: "calibri";
+    font-weight: inherit;
+    font-size: 18px;
+    letter-spacing: 2px;
+    color: #FEFEFE;
+    width: 70%;
+}
+
+#estilo_linea{
+    height: 15px;
+    width: 15px;
+    border-radius: 10px;
+    display: inline-block;
+}
+
+.total{ 
+    background-color: #FEFEFE;
+}
+
+.rango{
+    background-color: #f8dfc6;
+}
+
+/*Linea inferior*/
+.linea_inferior{
+    background-color: #657B8B;
+    height:40px;
+    margin: 20px 20px 0px 20px;
+}
+
+/*Estilos para alinear las tablitas hacia la derecha*/
+.alinear_tablitas{
+    text-align: right;
+}
